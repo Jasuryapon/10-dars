@@ -8,10 +8,14 @@
   --preferance-bg: #f4f1eb;
   --button-hover: #66d2cf;
   --button-disabeled: #e2dedb;
+  --footer-bg: #2c343e;
 
   /* fonts */
   --title-font-family: "Fraunces", sans;
   --main-font-family: "Barlow", sans-serif;
+
+  /* Transtion */
+  -o-transition-duration: 0.3s;
 }
 @font-face {
   font-display: swap;
@@ -111,7 +115,9 @@ h4 {
   margin-left: auto;
   margin-right: auto;
 }
-
+#active {
+  text-decoration: underline;
+}
 /* HEADER START*/
 
 .header {
@@ -160,3 +166,55 @@ h4 {
   opacity: 0.6;
 }
 /* HEADER AND*/
+
+/* FOOTER START*/
+.footer {
+  margin-bottom: 88px;
+}
+.footer__container {
+  background-color: var(--footer-bg);
+  display: flex;
+  align-items: center;
+  padding: 47px;
+}
+.container {
+}
+.site-logo {
+  margin-right: 102px;
+}
+.site-logo__image {
+}
+.footer-logo__image {
+}
+.sitenav {
+}
+.footer-sitenav {
+  margin-right: auto;
+}
+.sitenav__list {
+}
+.sitenav__item {
+}
+.footer-sitenav .sitenav__link:hover {
+  color: var(--light-cream-bg);
+  opacity: 1;
+}
+.footer-sitenav .sitenav__link:active {
+  color: var(--light-cream-bg);
+  opacity: 1;
+}
+.footer__social-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.footer__social-item {
+}
+.footer__social-link svg path {
+  transition: var(--transnion-duration);
+}
+.footer__social-link:hover svg path {
+  fill: var(--pale-orange);
+}
+
+/* FOOTER AND*/
