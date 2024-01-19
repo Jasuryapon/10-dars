@@ -115,6 +115,19 @@ h4 {
   margin-left: auto;
   margin-right: auto;
 }
+.btn {
+  border-radius: 6px;
+  padding: 15px 31px 16px;
+  background-color: var(--dark-cyan);
+  color: var(--light-cream-bg);
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 25px;
+  font-family: var(--title-font-family);
+  transition: var(--transnion-duration);
+}
+.btn:hover {
+}
 #active {
   text-decoration: underline;
 }
