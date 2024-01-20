@@ -26,3 +26,134 @@
 }
 .btn {
 }
+.hero__btn:active {
+  background-color: #66d2cf;
+}
+.features__container {
+  padding-left: 95px;
+}
+
+.features__list {
+  display: flex;
+  gap: 30px;
+  margin-top: -55px;
+  margin-bottom: 200px;
+}
+
+.features__item-img {
+  margin-bottom: 71.5px;
+}
+
+.features__item-title {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.features__item-text {
+  text-align: center;
+  width: 255px;
+}
+.promo__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--light-cream-bg);
+  background-color: var(--footer-bg);
+  padding-top: 112px;
+  border-radius: 10px;
+  margin-bottom: 351px;
+}
+
+.promo__title {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.promo__text {
+  opacity: 0.8;
+  text-align: center;
+  padding-right: 370px;
+  padding-left: 370px;
+  margin-bottom: 86px;
+}
+
+.promo__list {
+  display: flex;
+  gap: 45px;
+}
+
+.promo__img {
+  margin-bottom: 56px;
+}
+
+.promo__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: -150px;
+  padding: 72px 48px 48px 48px;
+  border-radius: 8px;
+  background-color: var(--dark-cyan);
+  width: 350px;
+}
+
+.promo__item-title {
+  margin-bottom: 24px;
+}
+.works__container {
+  padding-left: 100px;
+}
+
+.work__title {
+  color: var(--gray);
+  margin-bottom: 80px;
+}
+
+.work__box {
+  margin-bottom: 67px;
+}
+
+.works__box-img {
+  display: flex;
+  gap: 349px;
+  margin-bottom: -15.5px;
+}
+
+.work__box-line {
+  width: 760px;
+  height: 2px;
+  background-color: #fdd6ba;
+  color: #fdd6ba;
+  z-index: -1;
+}
+
+.work__list {
+  display: flex;
+  gap: 95px;
+  margin-bottom: 64px;
+}
+
+.work__item {
+  width: 285px;
+}
+
+.work__item-number {
+  color: #fdd6ba;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 72px;
+  margin-bottom: 38px;
+}
+
+.work__item-title {
+  width: 255px;
+  margin-bottom: 42px;
+}
+
+.work__container a {
+  margin-bottom: 200px;
+}
