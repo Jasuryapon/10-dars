@@ -54,6 +54,7 @@
 .container {
 }
 .quality__content {
+  width: 100%;
   max-width: 540px;
   color: var(--light-cream-bg);
 }
