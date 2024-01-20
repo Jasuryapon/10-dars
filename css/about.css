@@ -1,7 +1,6 @@
 .hero__container {
   background-color: #a2a2a2;
-  background-image: linear-gradient(rgba(0, 0, 0, 40%), rgba (0, 0, 0, 40%)),
-    url("../images/about/desktop/image-hero-whitecup.jpg");
+  background-image: url("../images/about/desktop/image-hero-whitecup.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11,12 +10,13 @@
   margin-bottom: 168px;
 }
 .hero__content {
-  width: 445px;
+  color: var(--light-cream-bg);
 }
 .hero__title {
   margin-bottom: 24px;
 }
 .hero__description {
+  width: 445px;
 }
 .commitment {
   margin-bottom: 256px;
@@ -25,13 +25,14 @@
   display: flex;
   gap: 125px;
   align-items: center;
-  justify-content: center;
+  margin-bottom: 250px;
+  padding-left: 85px;
 }
 .commitment__image {
   border-radius: 8px;
+  background: #0e8784;
 }
 .commitment__content {
-  width: 100%;
   max-width: 540px;
 }
 .commitment__title {
@@ -40,7 +41,6 @@
 .commitment__description {
 }
 .quality {
-  margin-bottom: 168px;
 }
 .quality__container {
   display: flex;
@@ -49,17 +49,19 @@
   background-color: var(--footer-bg);
   color: var(--light-cream-bg);
   border-radius: 10px;
+  margin-bottom: 168px;
 }
 .container {
 }
 .quality__content {
-  width: 100%;
   max-width: 540px;
+  color: var(--light-cream-bg);
 }
 .quality__title {
   margin-bottom: 32px;
 }
 .quality__description {
+  opacity: 0.8;
 }
 .quality__image {
   border-radius: 8px;
@@ -87,12 +89,12 @@
   gap: 95px;
 }
 .branches__item {
+  margin-bottom: 46px;
 }
 .branches__item__image {
-  margin-bottom: 45px;
+  margin-bottom: 24px;
 }
 .branches__item__title {
-  margin-bottom: 24px;
   width: 285px;
 }
 .branches__item__phone {
