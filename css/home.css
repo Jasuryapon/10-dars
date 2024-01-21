@@ -103,7 +103,7 @@
 .promo__item-title {
   margin-bottom: 24px;
 }
-.works__container {
+.work__container {
   padding-left: 100px;
 }
 
@@ -116,7 +116,7 @@
   margin-bottom: 67px;
 }
 
-.works__box-img {
+.work__box-img {
   display: flex;
   gap: 349px;
   margin-bottom: -15.5px;
@@ -127,7 +127,6 @@
   height: 2px;
   background-color: #fdd6ba;
   color: #fdd6ba;
-  z-index: -1;
 }
 
 .work__list {
