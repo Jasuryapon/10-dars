@@ -134,11 +134,9 @@
   gap: 95px;
   margin-bottom: 64px;
 }
-
 .work__item {
   width: 285px;
 }
-
 .work__item-number {
   color: #fdd6ba;
   font-size: 72px;
@@ -147,7 +145,6 @@
   line-height: 72px;
   margin-bottom: 38px;
 }
-
 .work__item-title {
   width: 255px;
   margin-bottom: 42px;
